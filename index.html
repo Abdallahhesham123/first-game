@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+  <div id="theme-open" class="fas fa-bars"></div>
+<div class="themes-container">
+
+<div id="theme-close" class="fas fa-times"></div>
+<h3>switch theme</h3>
+<div class="theme-toggler">
+  <span>light</span>
+  <span class="toggler"></span>
+  <span>dark</span>
+</div>
+
+<h3> pick a color</h3>
+<div class="theme-colors">
+  <div class="color" style="background:#2980b9"></div>
+  <div class="color" style="background:#27ae60;"></div>
+  <div class="color" style="background:#ffa502;"></div>
+  <div class="color" style="background:#8e44ad;"></div>
+  <div class="color" style="background:#0fb9b1;"></div>
+  <div class="color" style="background:#ffd32a;"></div>
+  <div class="color" style="background:#ff0033;"></div>
+  <div class="color" style="background:#e84393;"></div>
+</div>
+
+</div>
+
+<div class="container">
+  <div class="row p-5 gy-5">
+    <div class="col-lg-6 my-5">
+      <div class="box border-2 border border-danger text-center rounded-4" id="abdallah-box">
+        <div class="person">
+          <div class="abdallah-heath progress position-relative">
+            <span></span><p class="position-absolute translate-middle top-50 start-50 fs-5 fw-bolder">100%</p>
+          </div>
+          <h2 class="my-3 text-primary">Abdallah</h2>
+          <img src="./image/team-02.jpg" alt="" class="w-50 m-auto rounded" id="abdallah-img"><br>
+          <button id="abdallah-attack" class="btn btn-primary m-4">Attack</button>
+            <button id="abdallah-make-health" class="btn btn-warning me-4">Health</button>
+            <button id="abdallah-status" class="btn btn-success">Status</button>
+            <p  id="abdallah-alive"></p>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-lg-6 my-5">
+      <div class="box border-2 border border-danger text-center rounded-4 " id="amany-box">
+        <div class="person">
+          <div class="amany-heath progress position-relative">
+            <span></span> <p class="position-absolute translate-middle top-50 start-50 fs-5 fw-bolder">100%</p>
+          </div>
+          <h2 class="my-3 text-primary">Opponant</h2>
+           <img src="./image/team-08.jpg" alt=""  class="w-50 m-auto rounded" id="amany-img"><br>
+               <button id="amany-attack" class="btn btn-primary m-4 ">Attack</button>
+            <button id="amany-make-health" class="btn btn-warning me-4">Health</button>
+            <button id="amany-status" class="btn btn-success">Status</button>
+            <p  id="amany-alive" class="text-center text-uppercase"></p>
+        </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row p-1 gy-1" >
+      <div class="col-lg-5 mx-5 d-none" id="status-abdallah-container">
+          <div class="box-abdallah border-1 border border-success text-center rounded-4 " style="background-color:var(--light-bg) ;">
+            <p class="abdallah-health"></p>
+            <p class="abdallah-strength"></p>
+           
+
+          </div>
+      </div>
+            <div class="col-lg-5 px-5 d-none" id="status-amany-container">
+            <div class="box-amany border-1 border border-success text-center rounded-4"  style="background-color:var(--light-bg) ;">
+            <p class="amany-health"></p>
+            <p class="amany-strength"></p>
+
+            </div>
+      </div>
+    </div>
+  </div>
+
+
+ <script src="./js/bootstrap.bundle.min.js"></script>
+ <script src="./js/script.js"></script>  
+  <script src="./js/main_script.js"></script>  
+</body>
+</html>
